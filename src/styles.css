@@ -17,6 +17,10 @@ strong {
   font-size: 22px;
 }
 
+.footer {
+  padding-left: 50px;
+}
+
 .container {
   display: block;
   border: 5px solid;
