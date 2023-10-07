@@ -1,0 +1,96 @@
+h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 14px;
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+strong {
+  font-size: 22px;
+}
+
+.container {
+  display: block;
+  border: 5px solid;
+  max-width: 500px;
+  border-color: rgb(90 182 240);
+  border-radius: 20px;
+  background-color: rgb(252, 230, 201);
+  box-shadow: 0 1rem 3rem rgb(149, 188, 208);
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.current-city {
+  text-align: right;
+  padding: 60px;
+  position: relative;
+  right: -40px;
+  top: 40px;
+}
+
+.form-size {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.current-emoji {
+  font-size: 90px;
+  position: fixed;
+  left: 80px;
+  top: 200px;
+}
+.current-temp {
+  text-align: left;
+  position: fixed;
+  left: 190px;
+  top: 230px;
+}
+
+.mb-3 {
+  position: fixed;
+  top: 100px;
+  left: 60px;
+  width: 350px;
+}
+
+.search-button {
+  position: fixed;
+  top: 124px;
+  left: 430px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+}
+
+.row {
+  text-align: center;
+}
+
+.emoji {
+  font-size: 60px;
+}
+
+.current {
+  position: fixed;
+  top: 173px;
+  left: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  border-radius: 10px;
+  border-color: rgb(243, 137, 98);
+  background-color: rgb(243, 137, 98);
+  color: white;
+}

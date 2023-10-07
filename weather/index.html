@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="current-city">
+        <h1>London</h1>
+        <h2>
+          Thursday <br />
+          01:07<br />
+          Clear
+        </h2>
+        <h3>Lat/Long...</h3>
+      </div>
+
+      <p class="current-emoji">☀️</p>
+
+      <div class="current-temp">
+        <ul>
+          <li>
+            <strong>18˚</strong>
+            <a href="˚C" class="celcius" id="click-celcius">˚C</a> |
+            <a href="˚F" class="fahrenheit" id="click-fahrenheit">˚F</a>
+          </li>
+          <li>Humidity:<span id="humidity"></span>%</li>
+          <li>Wind:<span id="wind"></span> km/h</li>
+        </ul>
+      </div>
+
+      <form autocomplete="off">
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" Search></label>
+          <input
+            type="text"
+            class="form-control form-size"
+            placeholder="Search for city 🔍"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary search-button">
+          Search
+        </button>
+        <button id="location-Button" class="current">Current Location</button>
+      </form>
+
+      <div class="row">
+        <div class="col">Thurs</div>
+        <div class="col">Fri</div>
+        <div class="col">Sat</div>
+        <div class="col">Sun</div>
+        <div class="col">Mon</div>
+      </div>
+      <div class="row">
+        <div class="col emoji">🌧️</div>
+        <div class="col emoji">🌧️</div>
+        <div class="col emoji">🌧️</div>
+        <div class="col emoji">☀️</div>
+        <div class="col emoji">☀️</div>
+      </div>
+      <div class="row">
+        <div class="col">17˚</div>
+        <div class="col">15˚</div>
+        <div class="col">14˚</div>
+        <div class="col">15˚</div>
+        <div class="col">16˚</div>
+      </div>
+
+      <br />
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
